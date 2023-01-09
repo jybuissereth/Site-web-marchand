@@ -1,0 +1,686 @@
+header {
+
+    text-align: center;
+    font-size: larger;
+    color: white;
+    background-color: black;
+    padding: 1rem 0 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+}
+
+.header_h1 {
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+body {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    /* position: relative;  */
+}
+
+
+
+.logo_header {
+    padding: 0.8rem 0 0.8rem 0;
+    color: white;
+}
+
+.a1 {
+    grid-area: a1;
+}
+
+.a2 {
+    grid-area: a2;
+}
+
+
+.a3 {
+    grid-area: a3;
+}
+
+.a4 {
+    grid-area: a4;
+    /* margin-right: 1rem; */
+}
+
+.a5{
+    grid-area: a5;
+}
+.grid-container-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 8fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . . a1  a5 a2 a3 a4";
+
+}
+
+ion-icon {
+    font-size: 25px;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 5.5rem;
+}
+
+.div_button_home {
+    text-align: center;
+}
+
+.button_home {
+    color: black;
+    background-color: white;
+    border: 0px;
+    border-radius: 0.3rem;
+    font-size: large;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+.img_home {
+    width: 80%;
+}
+
+.img_home_1 {
+    grid-area: p1;
+}
+
+.img_home_2 {
+    grid-area: p2;
+}
+
+.img_home_3 {
+    grid-area: p3;
+}
+
+.grid-container-home {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "p1 p2 p3";
+
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.top {
+    position: relative;
+}
+
+#panier_counter{
+    position: absolute;
+top: 20px; right: 25px;
+background-color: red;
+border-radius: 35%;
+width:15px;
+font-size: small;
+}
+
+/* ---------------------------------pagination------------------------------------ */
+.center {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #a7a7a7;
+    color: white;
+    border: 1px solid #747474;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+/* ---------------------------------footer---------------------------------------- */
+
+footer {
+
+    width: 100%;
+    background-color: #e2e2e2;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+
+}
+
+.footer_icon1 {
+    grid-area: p1;
+}
+
+.footer_icon2 {
+    grid-area: p2;
+}
+
+.footer_icon3 {
+    grid-area: p3;
+}
+
+.footer1 {
+    grid-area: p4;
+}
+
+.footer2 {
+    grid-area: p5;
+}
+
+.footer3 {
+    grid-area: p6;
+}
+
+.hr_footer {
+    grid-area: p7;
+}
+
+.grid-container-footer1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". p1 p2 p3 .";
+
+}
+
+.grid-container-footer2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "p4 p5 p6";
+
+}
+
+
+hr {
+    width: 95%;
+    size: 1px;
+}
+
+
+.flex-wrapper {
+    display: flex;
+    min-height: 81.2vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/* -------------------------------------------SHOP---------------------------------------- */
+
+
+
+.filtre_gauche {
+    grid-area: p1;
+}
+.btn-filtre .btn{
+    
+  border-radius: 80px;
+}
+.btn-filtre{
+    padding-left: 50px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.btn-filtre .btn:hover,
+.btn-filtre .btn:focus {
+    background-color: grey;
+}
+.dropdown h3{
+    
+        background: linear-gradient(to right, #ACABB9, #000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+
+    }
+
+
+
+
+
+
+.shop_droite {
+    grid-area: p2;
+
+}
+
+.container-grid-shop {
+    padding-top: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "p1 p2";
+
+
+}
+
+
+.article_0 {
+    grid-area: a1;
+}
+
+.article_1 {
+    grid-area: a2;
+}
+
+.article_2 {
+    grid-area: a3;
+}
+
+.article_3 {
+    grid-area: a4;
+}
+
+.article_4 {
+    grid-area: a5;
+}
+
+.article_5 {
+    grid-area: a6;
+}
+
+.article_6 {
+    grid-area: a7;
+}
+
+.article_7 {
+    grid-area: a8;
+}
+
+.article_8 {
+    grid-area: a9;
+}
+
+.grid_column_shop {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "a1 a2 a3"
+        "a4 a5 a6"
+        "a7 a8 a9";
+
+    
+}
+
+.grid_column_shop :hover .button-acheter
+{
+    visibility: visible;
+    border: solid 1px black;
+} 
+.grid_column_shop :hover 
+{
+    border: 1px rgb(194, 194, 194) solid;
+} 
+.article :hover 
+{
+    border: none;
+
+}
+.img_article {width: 70%;}
+
+/* button */
+
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: grey;
+}
+
+.dropdown {
+    position: fixed;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #e1e1e1
+}
+
+.show {
+    display: block;
+}
+
+
+[type="button"] {
+    margin-bottom: 10px;
+}
+
+.Check {
+    padding-top: 10px;
+}
+
+
+
+
+/* ---------------------------------checkout------------------------------------------ */
+
+
+
+.payment-checkout
+{
+    grid-area: t3;
+    background-color: #ececec;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+}
+
+ .product-checkout 
+{
+    display: grid;
+    grid-template-columns: 6fr 3fr 3fr 3fr 1fr;
+    grid-template-areas: "v1 v1 v1 v1 v1";
+    height: fit-content;
+    grid-area: t1;  
+    
+} 
+
+.votrepanier
+{
+    grid-area: v1;
+    
+}
+
+.payment-checkbox 
+{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+      /********** modif jy**************/
+    
+    
+}
+
+
+.button-acheter
+{
+    border: solid 1px;
+    font-size: large;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 0.6rem 2.3rem 0.6rem 2.3rem;
+    border-radius: 0.5rem;
+    visibility: hidden;
+    margin-bottom: 0.6rem;
+
+}
+
+
+
+
+.div-acheter
+{
+    text-align: center;
+}
+
+.product-desc
+{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.2fr;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    
+}
+.product-name 
+{
+    text-align: left;
+    margin-left: 5rem;
+
+}
+
+.prix
+{
+    text-align: right;
+}
+.euros{
+    margin-right: 80px;
+    margin-left: 5px;
+}
+
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 3rem 3rem 3rem;
+    font-size: 12px;
+    color: rgb(126, 124, 124);
+    
+}
+
+.checkout-form h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.checkout-input {
+    border-radius: 0.5rem;
+    height: 2rem;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1rem;
+    color: black;
+    
+}
+
+.button-payment
+{
+    border: solid 1px;
+    font-size: large;
+    background-color: white;
+    color: black;
+    padding: 0.6rem 2.3rem 0.6rem 2.3rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.grid-container-checkout
+{
+    padding-top: 7rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem; 
+    grid-template-areas: "t1 t3"
+                         "t2 t3"; /********** modif jy**************/
+                          
+}
+
+/*************button supprimer*****************/
+
+
+
+.total-checkout{
+    /* width: 600px; */
+    background-color: #ececec;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    /*margin-top: 123px;*/
+    
+    grid-area: t2; /********** modif jy**************/
+}
+.total{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    
+}
+
+
+/**********************Admin filter zone *******************/
+
+.grid-container-admin
+{
+    padding-top: 7rem;
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem; 
+    grid-template-areas: "t2 t2"
+                         "t1 t3";
+                       /*  "t2 t3"; /********** modif jy**************/
+                          
+}
+
+.admin_filter
+{
+    grid-area: t3;
+    background-color: #ececec;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+   height: 450px;
+}
+
+ .admin_article
+{
+    display: grid;
+    background-color: #ececec;
+
+   /* grid-template-columns: 6fr 3fr 3fr 3fr 1fr;*/
+    grid-template-areas: "t1";
+    height: fit-content;
+    grid-area: t1;  
+    margin-bottom: 10px;
+    
+} 
+.ajout-article{
+    grid-area: t2;
+    background-color: #ececec;
+    padding-bottom: 10px;
+
+
+}
+
+.success-msg {
+    color: #270;
+    background-color: #DFF2BF;
+    height:30px;
+    width: 300px;
+    padding-top: 5px;
+    margin-left: 120px;
+    border-radius: 30px;
+    animation: fadein 2s;
+    text-align: center;
+    opacity:0;
+
+}
+@keyframes 
+    fadein {
+        from {
+            opacity:1;
+        }
+        to {
+            opacity:0;
+        }
+  }
+
+
+
+
+  /* --------------------------------Commandes--------------------------------- */
+
+  .commandes_container
+  {
+    margin-top: 7rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    background-color: #ececec;
+    margin-bottom: 5rem;
+
+
+  }
+
+.commandes_container h1 
+{
+    text-align: center;
+}
+
+.img_commandes{
+    width: 40%;
+}
+
+.grid-container-commande
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 2rem;
+    padding-left: 2rem;
+
+}
+
+.text-command
+{
+    padding-top: 4rem;
+    font-size: 18px;
+}
+
+.recap-commande
+{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
